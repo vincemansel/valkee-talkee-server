@@ -22,7 +22,7 @@ module Pusher
     {:user_id => $uuid.generate.to_s, :user_info => {:name => "User 2", :email => "user2@example.com"}},
     {:user_id => $uuid.generate.to_s, :user_info => {:name => "User 3", :email => "user3@example.com"}},
     {:user_id => $uuid.generate.to_s, :user_info => {:name => "User 4", :email => "user4@example.com"}},
-    {:user_id => $uuid.generate.to_s, :user_info => {:name => "User 5", :email => "user5@example.com"}}
+    {:user_id => $uuid.generate.to_s, :user_info => {:name => "User 5", :email => "user5@example.com"}},
     {:user_id => $uuid.generate.to_s, :user_info => {:name => "User 6", :email => "user6@example.com"}}
   ].freeze
   
@@ -41,6 +41,7 @@ module Pusher
     end
     
     get "/" do
+      puts ">> Basic connection check succeeded."
       [200, {}, "It works!"]
     end
     
