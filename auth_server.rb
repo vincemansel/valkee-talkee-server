@@ -12,6 +12,8 @@ require 'uuid'
 # this needs to be created
 load File.join(File.dirname(__FILE__), *%w[auth_credentials.rb])
 
+
+
 $uuid = UUID.new
 
 module Pusher
