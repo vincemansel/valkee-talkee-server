@@ -12,6 +12,8 @@ test/tmp
 test/version_tmp
 tmp
 
+auth_credentials.rb
+
 # YARD artifacts
 .yardoc
 _yardoc
