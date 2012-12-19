@@ -12,11 +12,8 @@ test/tmp
 test/version_tmp
 tmp
 
-<<<<<<< HEAD
-=======
 auth_credentials.rb
 
->>>>>>> b85a60f522848e65ce9dcee153f5209b8b2d8014
 # YARD artifacts
 .yardoc
 _yardoc
